@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "billabong";
+    src: "font/billabon.tff" format("truetype");
+}
+
+/*etiquetas*/
+h1, h2{
+	text-align: center;
+	font-family: "billabong";
+	font-size: 50px;
+  margin-top: 0;
+  padding-top: 10px;
+
+}
+
+body{
+	background-image: url(../images/madera2.jpg);
+
+}
+
+canvas{
+	border: black solid 1px;
+}
+
+section{
+	color: white;
+	text-shadow: 3px 3px 3px black;
+  position: relative;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 18%;
+		border-radius: 600px 600px 00px 0px;
+		padding-top: 20px;
+}
+
+a{
+	font-weight: bold;
+	color: black;
+  margin-bottom: 0;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+/*IDs*/
+
+#imagen{
+	display: none;
+}
+
+#descargar{
+	text-decoration: none;
+	color: white;
+}
+
+#fotos{
+  position: absolute;
+  padding-bottom: 10%;
+  margin: auto;
+  left:0;
+  right:0;
+}
+
+/*Clases*/
+
+.fotos, label{
+	display: block;
+  text-align: center;
+}
+
+.botonarchivo{
+	display: block;
+}
+
+.btnfiltro{
+	text-align: center;
+}
+
+.centrado{
+	display: flex;
+	justify-content: center
+}
+
+.fondob{
+	background-color: white;
+}
